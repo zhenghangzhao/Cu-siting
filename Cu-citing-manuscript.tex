@@ -1,0 +1,41 @@
+\documentclass[12pt]{article}
+\usepackage{lingmacros}
+\usepackage{tree-dvips}
+\begin{document}
+
+\section*{Cu Speciation and Siting Preference in Zeolite: the Influence of the Topology}
+
+Zhenghang Zhao\textsuperscript{1} ..... William F. Schneider\textsuperscript{1,*}
+
+{\small
+\enumsentence{Department of Chemcial and Biomolecular Engineering, University of Notre Dame, Notre Dame, IN, 46556}
+* Corresponding Author: wschnei1@nd.edu 
+}
+
+\subsection*{Abstract}
+
+Zeolites
+
+\subsection*{Introduction}
+
+Cu-exchanged zeolites, in particular Cu-SSZ-13, are known to be active materials for the selective catalytic reduction (SCR) of NOx with NH3 [1]. SCR activity is associated with redox cycle of Cu+ and Cu2+, thus the nature of Cu reducibility and oxidizability are critical in understanding the relationship between catalytic activity and framework topology, Si/Al ratio, and Cu/Al ratio. It is well established that in SSZ-13, 2 Cu+ clusters pair together to be oxidized into a Cu2+ oxo cluster, which is also defined as the SCR oxidation half-cycle [2]. Experiments and calculations are consistent with Cu+ ion diffusion radius of 9 Å during transient oxidation. By combining this insight with models for the Cu+ ion pairability, it is possible to create a generic model to enumerate the fraction of pairable Cu+ during the SCR oxidation half-cycle for other zeolite frameworks.
+
+Construction of the Cu+ ion pairability model for SSZ-13 is facilitated by the fact that CHA is a 3-dimensional framework, so that a simple Cu+ ion diffusion radius cutoff is used to report the fraction of pairable Cu+. In this work, we explore extending the Cu+ ion pairability model to less-dimensional frameworks, with a particular emphasis on FER, AEI and TON, chosen because FER is a 2-dimensional framework, TON is a 1-dimensional framework and AEI presents different stacking of the double 6-ring building units compared to CHA.
+
+
+\subsection*{Computational Methods}
+
+CHA, FER, AEI and TON frameworks were determined from the IZA structure, and 3 by 3 by 3 supercells were generated. For each framework, Si was randomly substituted by Al to achieve target Si/Al ratio (5-40). Energies of the Al distribution as a sum over all Al-Al pair interaction were computed. Si and Al were randomly selected, and attempted a swap according to the acceptance probability. Swap was repeated until overall energy converged. Cu was randomly assigned to framework Al by Cu/Al ratio (0.08, 0.44). Pairing rules using ion diffusion radius and window connectivity were developed to determine if a certain pair of Cu+ was counted as a pairable one. Randomly titrate Cu+ pairs until the remaining Cu+ couldn’t find a partner to pair. Repeat the above procedure 10000 times for each framework, each Si/Al and each Cu/Al. Final fraction of pairable Cu+ was determined by the average value of Cu+ pairs divided by total number of Cu+ in each case.
+
+\subsection*{Results and Disscussions}
+
+FER has a two-dimensional window structure formed from both 10- and 8-membered-ring channels, and TON has a one-dimensional window structure formed from 10-membered-ring channels. AEI has a three-dimensional window structure formed from 8-membered-ring, but a different stacking of the double 6-ring building unit s from CHA (Figure 1). The consequence of different dimensional window structure is some Cu+ pairs are blocked by small-number-ring walls. We create statistical models using Monte Carlo simulation for Cu+ ion pairability. We apply pairing rules using diffusion radius of 9 Å, and window connectivity. The results show when using the diffusion radius as pairing rule, all 4 zeolite frameworks predict the same value of pairable Cu+, because the total number of unique pairs in each framework is nearly the same. When using window connectivity as the pairing rule, AEI and CHA have higher fraction of pairable Cu+ compared to FER, while TON predicts significantly less fraction of pairable Cu+ than other frameworks do (Figure 2). The reason is that FER and TON are 2- and 1-dimensional framework. When at the reduction-limited regime, active Cu+, inactive Cu+ and Cu2+ present in SCR, and our model recovers the fraction of active Cu+. It indicates the dimensionality of zeolite framework controls the fraction of pairable Cu+ during SCR oxidation half-cycle. This is consistent with preliminary experimental results that Cu-FER shows slower rates compared to CHA at high O2 pressure limit.
+
+\subsection*{Conclusions}
+
+
+\subsection*{References}
+
+In this work, we interrogate and compare Cu+ ion pairability in zeolites through statistical modeling and Monte Carlo simulation, and identify the sensitivity of the pairable Cu+ fraction to the zeolite topology, which promises the potential of rational choice of zeolite topology to tailor the Cu+ pairing during SCR oxidation half-cycle. This approach can be extended to calculate the Cu+ ion pairability of all 237 zeolite topologies for specific SCR applications of interest. 
+
+\end{document}
