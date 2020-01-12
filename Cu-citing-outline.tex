@@ -2,6 +2,10 @@
 \usepackage{lingmacros}
 \usepackage{tree-dvips}
 \usepackage{enumitem}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
 \begin{document}
 
 \section*{Cu Exchange and Siting Preference in Zeolites: the Influence of the framework topology}
@@ -15,7 +19,7 @@ Zhenghang Zhao\textsuperscript{1} ..... William F. Schneider\textsuperscript{1,*
 
 \subsection*{Abstract}
 
-Cu-exchange SSZ-13 has been confirmed active for the selective catalytic reduction (SCR) of NO\textsubscript{X} with NH\textsubscript{3} in diesel engine aftertreatment system. The nature of the Cu siting in the SSZ-13 is essential to the redox cycle and the Cu pairability. However, SSZ-13 is a zeolite material with Chabazite topology, which contains only one symmetry-distinct tetrahedral-site and 3-dimensional pore openings. The influence of the zeolite topology in the Cu exchange is still unclear. In this work, we performed Plane-wave-based Density Functional Theory supercell calculations to investigate the Cu exchange and siting preference in 4 different frameworks. We choose FER, AEI and TON to be compared with CHA to address different features of the framework topology including the pore dimensionality, the number of distinct T-site, the double-six-ring building unit, etc. Our results show the similarity and difference between zeolite frameworks
+Cu-exchange SSZ-13 has been confirmed active for the selective catalytic reduction (SCR) of NO\textsubscript{X} with NH\textsubscript{3} in diesel engine aftertreatment system. The nature of the Cu siting in the SSZ-13 is essential to the redox cycle and the Cu pairability. However, SSZ-13 is a zeolite material with Chabazite topology, which contains only one symmetry-distinct tetrahedral-site and 3-dimensional pore openings. The influence of the zeolite topology in the Cu exchange is still unclear. In this work, we performed Plane-wave-based Density Functional Theory supercell calculations to investigate the Cu exchange and siting preference in 4 different frameworks. We choose FER, AEI and TON to be compared with CHA to address different features of the framework topology including the pore dimensionality, the number of distinct T-site, the double-six-ring building unit, etc. Our results show the similarity and difference between zeolite frameworks\cite{Nobody06}
 
 \subsection*{Introduction}
 \subsubsection*{Objectives}
@@ -27,7 +31,7 @@ We compare the types of Cu sites and exchange energetics, compositional phase di
 \end{enumerate}
 
 \begin{enumerate}
-\item In SSZ-13 it is now well established that Cu2+ exchanges into the framework at proximal pairs of charge-compensating framework Al within a six-membered ring (6MR) to create Z2Cu sites and at isolated framework Al to form ZCu2+OH sites [1]. Experiments and calculations are consistent with preferential population of the former sites before the latter. By combining this insight with models for the distribution of Al on the SSZ-13 framework, it is possible to create a composition phase diagram for relative fractions of Z2Cu and ZCuOH in SSZ-13.\cite{Paolucci2016}
+\item In SSZ-13 it is now well established that Cu2+ exchanges into the framework at proximal pairs of charge-compensating framework Al within a six-membered ring (6MR) to create Z2Cu sites and at isolated framework Al to form ZCu$_{2+}$OH sites.\cite{Paolucci2016}  Experiments and calculations are consistent with preferential population of the former sites before the latter. By combining this insight with models for the distribution of Al on the SSZ-13 framework, it is possible to create a composition phase diagram for relative fractions of Z2Cu and ZCuOH in SSZ-13.\cite{Paolucci2016}
 \end{enumerate}
 
 \begin{enumerate}
@@ -78,9 +82,24 @@ FER has a two-dimensional window structure formed from both 10- and 8-membered-r
 \begin{enumerate}[resume]
 \item ZH exchange energies and siting locations
 \end{enumerate}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=5.2in]{./Figures/Figure-1}
+  \caption{ZH exchange energies for (), (), (), ()}
+\end{figure}
+
 \begin{enumerate}[resume]
 \item The ZCuOH exchange energies and siting locations
 \end{enumerate}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=5.2in]{./Figures/Figure-2}
+  \caption{Relative ZCuOH exchange energies  for (), (), () compared to CHA.}
+\end{figure}
+
+
 \begin{enumerate}[resume]
 \item The Z2H2 exchange energies and siting locations
 \end{enumerate}
@@ -97,6 +116,11 @@ FER has a two-dimensional window structure formed from both 10- and 8-membered-r
 \item The compositional phase diagrams
 \end{enumerate}
 
+\begin{figure}[H]
+\centering
+  \includegraphics[width=5.2in]{./Figures/Figure-5}
+  \caption{Compositiona phase diagrams for (), (), (), ()}
+\end{figure}
 
 
 \subsection*{Conclusions}
@@ -104,7 +128,8 @@ FER has a two-dimensional window structure formed from both 10- and 8-membered-r
 In this work, we interrogate and compare Cu+ ion pairability in zeolites through statistical modeling and Monte Carlo simulation, and identify the sensitivity of the pairable Cu+ fraction to the zeolite topology, which promises the potential of rational choice of zeolite topology to tailor the Cu+ pairing during SCR oxidation half-cycle. This approach can be extended to calculate the Cu+ ion pairability of all 237 zeolite topologies for specific SCR applications of interest. 
 
 \subsection*{References}
-
+\bibliography{Ref}{}
+\bibliographystyle{plain}
 
 
 \end{document}
