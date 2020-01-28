@@ -16,10 +16,10 @@ Zhenghang Zhao\textsuperscript{1} ..... William F. Schneider\textsuperscript{1,*
 \enumsentence{Department of Chemcial and Biomolecular Engineering, University of Notre Dame, Notre Dame, IN, 46556}
 * Corresponding Author: wschnei1@nd.edu 
 }                     
-
+ 
 \subsection*{Abstract}
 
-Cu-exchange SSZ-13 has been confirmed active for the selective catalytic reduction (SCR) of NO\textsubscript{X} with NH\textsubscript{3} in diesel engine aftertreatment system. The nature of the Cu siting in the SSZ-13 is essential to the redox cycle and the Cu pairability. However, SSZ-13 is a zeolite material with Chabazite topology, which contains only one symmetry-distinct tetrahedral-site and 3-dimensional pore openings. The influence of the zeolite topology in the Cu exchange is still unclear. In this work, we performed Plane-wave-based Density Functional Theory supercell calculations to investigate the Cu exchange and siting preference in 4 different frameworks. We choose FER, AEI and TON to be compared with CHA to address different features of the framework topology including the pore dimensionality, the number of distinct T-site, the double-six-ring building unit, etc. Our results show the similarity and difference between zeolite frameworks\cite{Nobody06}
+Cu-exchange SSZ-13 has been confirmed active for the selective catalytic reduction (SCR) of NO\textsubscript{X} with NH\textsubscript{3} in diesel engine aftertreatment system. The nature of the Cu siting in the SSZ-13 is essential to the redox cycle and the Cu pairability. However, SSZ-13 is a zeolite material with Chabazite topology, which contains only one symmetry-distinct tetrahedral-site and 3-dimensional pore openings. The influence of the zeolite topology in the Cu exchange is still unclear. In this work, we performed Plane-wave-based Density Functional Theory supercell calculations to investigate the Cu exchange and siting preference in 4 different frameworks. We choose FER, AEI and TON to be compared with CHA to address different features of the framework topology including the pore dimensionality, the number of distinct T-site, the double-six-ring building unit, etc. Our results show the similarity and difference between zeolite frameworks
 
 \subsection*{Introduction}
 \subsubsection*{Objectives}
@@ -62,7 +62,7 @@ Zeolite, a type of mesoporous aluminosilicate materials, are mainly used as cata
 
 \subsection*{Computational Methods}
 
-CHA, FER, AEI and TON conventional unit cells were determined from the IZA structure. A 1 $\times$ 1 $\times$ 1 supercell was constructed for CHA, FER and AEI, while a 1$\times$ 1$\times$ 2 supercell was constructed for TON. For each framework, Si was  substituted by Al to cover all available T-sites. H, Cu and CuOH were placed in all possible locations in each T-site for each framework. A enumeration code was established to enumerate all possible T-site pairs for each framework, and 2 Si were substituted by Al. DFT simulations were performed using the Vienna ab-initio Simulation Package (VASP). Spin-polarized DFT energies were determined within the generalized gradient approximation and projector-augmented wave description of core states. Calculations are conducted with a 72 T-site supercell. Construction of relative energy diagrams followed the previous procedures [1] and was further normalized to mole of exchanged Cu ions.
+CHA, FER, AEI and TON conventional unit cells were determined from the IZA structure. A 1 $\times$ 1 $\times$ 1 supercell was constructed for CHA, FER and AEI, while a 1$\times$ 1$\times$ 2 supercell was constructed for TON. For each framework, Si was  substituted by Al to cover all available T-sites. H, Cu and CuOH were placed in all possible locations in each T-site for each framework. A enumeration code was established to enumerate all possible T-site pairs for each framework, and 2 Si were substituted by Al. DFT simulations were performed using the Vienna ab-initio Simulation Package (VASP). Spin-polarized DFT energies were determined within the generalized gradient approximation and projector-augmented wave description of core states. Calculations are conducted with a 72 T-site supercell. Construction of relative energy diagrams followed the previous procedures \cite{Paolucci2016} and was further normalized to mole of exchanged Cu ions.
 
 
 
@@ -70,66 +70,85 @@ CHA, FER, AEI and TON conventional unit cells were determined from the IZA struc
 Here, we compute the DFT exchange energies for Z$_{2}$Cu and ZCuOH in CHA, AEI, FER and TON. We build a linear model to .....
 
 \subsection*{Results and Disscussions}
-\begin{enumerate}
-\item The types of exchange sites in zeolites, Z and Z2 sites
-\end{enumerate}
-
-When Cu is exchanged in the framework, it may maintain either +1 or +2 state, which resulting in ZCu, ZCuOH and Z$_{2}$Cu forms. Here, Z indicates a frameworked Al site. These sites form in exchange with the bronsted-acid sites (ZH and Z$_{2}$H$_{2}$) that are pre-existed in the framework.
-
-FER has a two-dimensional window structure formed from both 10- and 8-membered-ring channels, and TON has a one-dimensional window structure formed from 10-membered-ring channels. AEI has a three-dimensional window structure formed from 8-membered-ring, but a different stacking of the double 6-ring building unit s from CHA (Figure 1). The consequence of different dimensional window structure is some Cu+ pairs are blocked by small-number-ring walls. We create statistical models using Monte Carlo simulation for Cu\textsuperscript{+} ion pairability. We apply pairing rules using diffusion radius of 9 Å, and window connectivity. The results show when using the diffusion radius as pairing rule, all 4 zeolite frameworks predict the same value of pairable Cu+, because the total number of unique pairs in each framework is nearly the same. When using window connectivity as the pairing rule, AEI and CHA have higher fraction of pairable Cu\textsuperscript{+} compared to FER, while TON predicts significantly less fraction of pairable Cu\textsuperscript{+} than other frameworks do (Figure 2). The reason is that FER and TON are 2- and 1-dimensional framework. When at the reduction-limited regime, active Cu+, inactive Cu+ and Cu\textsuperscript{2+} present in SCR, and our model recovers the fraction of active Cu\textsuperscript{+}. It indicates the dimensionality of zeolite framework controls the fraction of pairable Cu\textsuperscript{+} during SCR oxidation half-cycle. This is consistent with preliminary experimental results that Cu-FER shows slower rates compared to CHA at high O\textsubscript{2} pressure limit.
-
-
-\begin{enumerate}[resume]
-\item ZH exchange energies and siting locations
-\end{enumerate}
-
+\subsubsection*{Sites in CHA, AEI, FER and TON}
 \begin{figure}[H]
 \centering
-  \includegraphics[width=5.2in]{./Figures/Figure-1}
-  \caption{ZH exchange energies for (), (), (), ()}
+ \includegraphics[width=5.2in]{./Figures/Figure-1}
+ \caption{Zeolite topologies for CHA, AEI, FER and TON}
+ \label{Topologies}
 \end{figure}
 
-\begin{enumerate}[resume]
-\item The ZCuOH exchange energies and siting locations
+\begin{enumerate}
+\item CHA and AEI have three-dimensional window structure formed from 8-membered-ring, but a different stacking of the double 6-ring building units(Figure 1a, 1b). The resulting cages for CHA and AEI have oblate and pear-shaped cavities. FER has a two-dimensional window structure formed from both 10- and 8-membered-ring channels (Figure 1c), and TON has a one-dimensional window structure formed from 10-membered-ring channels (Figure 1d).  The consequence of different dimensional window structure is some isolated or paired Al sites are blocked by small-number-ring walls to electrostatically tether Cu ions.
 \end{enumerate}
 
+\begin{enumerate}[resume]
+\item CHA has only one symmetry-distinct tetrahedral-site (T-site) (Figure 1a), while AEI has 3 symmetry-distinct T-sites (Figure 1b). Both FER and TON have 4 symmetry-distinct T-sites (Figure 1c, 1d). The numbering of different T sites are also labeled in Figure 1. Those 3 types of T-sites in AEI all have a multiplicitiy of 16 in a 48 T-site conventional AEI unit cell. T1, T2, T3 and T4 sites in FER have multiplicities of 16, 8, 8 and 4 in a 36 T-site conventional unit cell. TON has multiplicities of 8, 8, 4 and 4 for T1 to T4 sites in a 24 T-site conventional unit cell. The T4 site in TON is inaccessible to the large 10-membered-ring pore openings, resulting in different Cu ion exchange properties.
+\end{enumerate}
+
+\begin{enumerate}[resume]
+\item When Cu is exchanged in the framework, it maintains either +1 or +2 state, which resulting in ZCu, ZCuOH and Z$_{2}$Cu forms. Here, Z indicates a frameworked Al site. These sites form in exchange with the bronsted-acid sites (ZH and Z$_{2}$H$_{2}$) that are pre-existed in the framework.
+\end{enumerate}
+
+\begin{enumerate}[resume]
+\item The types of isolated proton and isolated Cu energies are the same to the types of symmetry-distinct T-sites in all zeolite frameworks. For the types of Z$_{2}$H$_{2}$ and Z$_{2}$Cu sites, we used a previously developed enumeration code to identify the Al proximity in 4 zeolite frameworks.\cite{Paolucci2016} The unique Al pairs are classified as "clusters" in the enumeration code, and the identified unique Al clusters, which will be included in subsequent paired Al exchange energy analysis.
+\end{enumerate}
+
+
+
+\subsubsection*{Isolated Al exchange energies}
 \begin{figure}[H]
 \centering
   \includegraphics[width=5.2in]{./Figures/Figure-2}
-  \caption{Relative ZCuOH exchange energies  for (), (), () compared to CHA.}
+  \caption{ZH exchange energies for CHA, AEI, FER and TON. Energies are normalized to the lowest energy for each T site.}
+  \label{ZH energies}
 \end{figure}
 
-
-\begin{enumerate}[resume]
-\item The Z2H2 exchange energies and siting locations
-\end{enumerate}
-\begin{enumerate}[resume]
-\item The Z2Cu exchange energies and siting locations
-\end{enumerate}
-\begin{enumerate}[resume]
-\item The Z2Cu and ZCoOH exchange
-\end{enumerate}
-\begin{enumerate}[resume]
-\item The Z2Cu site counting
-\end{enumerate}
-\begin{enumerate}[resume]
-\item The compositional phase diagrams
+\begin{enumerate}
+\item We picked up each framework, placed proton close to all possible 4 neighboring oxygen atoms for each T-site, and did DFT optimizations. In Figure 2, the DFT energies of ZH for all symmetry-distinct T-sites in CHA, AEI, FER and TON are plotted relative to the lowest energy for each T-site in each framework. We The optimized structures of some particular interesting points are also plotted as inserted.
 \end{enumerate}
 
+\begin{enumerate}[resume]
+\item For both CHA and AEI, The energies for 4 ZH locations in each T-site are comparable to one another. All proton are pointing into the nearby large 8MR pore openings. The exceptions that draws our attention is the forth one in CHA and AEI T1. 
+\end{enumerate}
+
+\subsubsection*{ZCuOH relative to CHA}
+\begin{figure}[H]
+\centering
+  \includegraphics[width=5.2in]{./Figures/Figure-3}
+  \caption{Relative ZCuOH exchange energies  for (), (), () compared to CHA.}
+  \label{ZH}
+\end{figure}
+
+\subsubsection*{Z2Cu relative to CHA}
+\begin{figure}[H]
+\centering
+  \includegraphics[width=2.6in]{./Figures/Figure-4}
+  \caption{Z2Cu exchange energies relative to CHA for (), (), (), ()}
+  \label{PhaseDiagram}
+\end{figure}
+
+\subsubsection*{Z2Cu to ZCuOH}
+
+
+
+\subsubsection*{Compositional phase diagram}
 \begin{figure}[H]
 \centering
   \includegraphics[width=5.2in]{./Figures/Figure-5}
-  \caption{Compositiona phase diagrams for (), (), (), ()}
+  \caption{Compositional phase diagrams for (), (), (), ()}
+  \label{PhaseDiagram}
 \end{figure}
 
+\subsubsection*{Fitting models}
 
 \subsection*{Conclusions}
 
-In this work, we interrogate and compare Cu+ ion pairability in zeolites through statistical modeling and Monte Carlo simulation, and identify the sensitivity of the pairable Cu+ fraction to the zeolite topology, which promises the potential of rational choice of zeolite topology to tailor the Cu+ pairing during SCR oxidation half-cycle. This approach can be extended to calculate the Cu+ ion pairability of all 237 zeolite topologies for specific SCR applications of interest. 
+In this work, we interrogate and compare Cu ion exchange and siting preference in CHA, AEI, FER and TON zeolites through DFT supercell simulation, and identify the sensitivity of the  Cu$_{+}$ and Cu$_{2+}$ to the zeolite topology, which promises the potential of rational choice of zeolite topology to tailor the Cu siting  during SCR cycle. This work can be extended to predict the Cu siting of all 237 zeolite topologies for specific Cu ion properties of interest. 
 
-\subsection*{References}
-\bibliography{Ref}{}
 \bibliographystyle{plain}
+\bibliography{Cu-citing-outline}
+
 
 
 \end{document}
