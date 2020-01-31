@@ -42,39 +42,34 @@ We compare the types of Cu sites and exchange energetics, compositional phase di
 \begin{enumerate}
 \item SSZ-13 is on-board catalyst for SCR
 \end{enumerate}
-Zeolite, a type of mesoporous aluminosilicate materials, are mainly used as catalyst in petrolieum engineering or oil refining reactions. Cu-exchange SSZ-13
+Zeolite, a type of mesoporous aluminosilicate materials, are mainly used as catalyst in petrolieum engineering or oil refining reactions. Cu-exchange SSZ-13 draws attention in the past decades for being used as the on-board catalyst for selective catalytic reduction (SCR) of NO$_{X}$ with NH$_{3}$.\cite{Paolucci2016,Paolucciscience,Paoluccichapter,Paolucci2014} It is a type of zeolite that has chabazite topology with Cu exchanged  as extraframework counter-ions.
  
 \begin{enumerate}[resume]
 \item The Cu exchange and siting have been investigated both experimentally and theoretically
 \end{enumerate}
+The SCR process involves the pairing of Cu$^{1+}$ to form Cu oxo clusters, and the reduction of Cu$^{2+}$.\cite{Paolucciscience} Thus, the The Cu speciation and citing preferences determines the performance of the SCR for the catalyst. In addition, Cu speciation also determines the hydrothermal stability of the catalyst, and the Cu citing is to a large degree dependent on the Al locations or the Al proximity in the zeolite.\cite{Paolucci2016, Li2018JPCC} Both experimental and computational methods have been implemented to learn the Cu speciation and siting preference in Cu-SSZ-13. Experimentally, polynuclear Cu2+ species can be charactrized by UV-vis and time-dependent DFT.\cite{Hui-UV-vis}
 
 \begin{enumerate}[resume]
 \item Other emerging frameworks for SCR, and the uncertainty of the zeolite topology
 \end{enumerate}
+While the analysis of Cu-SSZ-13 is facilitated by the fact that SSZ-13 has CHA topology with only 1 symmetry-distinct T-site, there are other zeolite materials showing potential utilization as SCR catalyst. 
 
 \begin{enumerate}[resume]
 \item Our approach in this paper
 \end{enumerate}
-
-\begin{enumerate}[resume]
-\item What's new in this work
-\end{enumerate}
+In this work, we extend the evaluation of Cu speciation and siting preference to less symmetrical zeolite frameworks. We choose AEI, FER, TON along with CHA as representative topologies, because they have different number of symmetry-dinstinct T-site, and different dimensionality for the pore openings. We performed supercell-based DFT calculations, statistical enumeration to seek the similarity and difference of Cu speciation and siting preferences for those zeolites. We also build a model using machine learning regression to correlate the Cu exchange energies to the topological features. With our model, rational choice of zeolite framework is feasible to meet the specific requirement in Cu speciation and siting.
 
 \subsection*{Computational Methods}
 
 CHA, FER, AEI and TON conventional unit cells were determined from the IZA structure. A 1 $\times$ 1 $\times$ 1 supercell was constructed for CHA, FER and AEI, while a 1$\times$ 1$\times$ 2 supercell was constructed for TON. For each framework, Si was  substituted by Al to cover all available T-sites. H, Cu and CuOH were placed in all possible locations in each T-site for each framework. A enumeration code was established to enumerate all possible T-site pairs for each framework, and 2 Si were substituted by Al. DFT simulations were performed using the Vienna ab-initio Simulation Package (VASP). Spin-polarized DFT energies were determined within the generalized gradient approximation and projector-augmented wave description of core states. Calculations are conducted with a 72 T-site supercell. Construction of relative energy diagrams followed the previous procedures \cite{Paolucci2016} and was further normalized to mole of exchanged Cu ions.
 
 
-
-\subsection*{Guidance to the reader}
-Here, we compute the DFT exchange energies for Z$_{2}$Cu and ZCuOH in CHA, AEI, FER and TON. We build a linear model to .....
-
 \subsection*{Results and Disscussions}
 \subsubsection*{Sites in CHA, AEI, FER and TON}
 \begin{figure}[H]
 \centering
- \includegraphics[width=5.2in]{./Figures/Figure-1}
- \caption{Zeolite topologies for CHA, AEI, FER and TON}
+ \includegraphics[width=6in]{./Figures/Figure-1}
+ \caption{Demonstrations of zeolite frameworks, T-site types for CHA, AEI, FER and TON. CHA and AEI show cage-shaped structures, and FER, TON show channel-shaped structures. Due to the space limitation, the channel in 1 dimension is drawn in FER.}
  \label{Topologies}
 \end{figure}
 
@@ -136,7 +131,7 @@ Here, we compute the DFT exchange energies for Z$_{2}$Cu and ZCuOH in CHA, AEI, 
 \begin{figure}[H]
 \centering
   \includegraphics[width=5.2in]{./Figures/Figure-5}
-  \caption{Compositional phase diagrams for (), (), (), ()}
+  \caption{Compositional phase diagrams for (A), (B), (C), (D)}
   \label{PhaseDiagram}
 \end{figure}
 
