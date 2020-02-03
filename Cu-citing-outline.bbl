@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{doi:10.1080/01614940802480122}
+Sandro Brandenberger, Oliver Kröcher, Arno Tissler, and Roderik Althoff.
+\newblock The state of the art in selective catalytic reduction of nox by
+  ammonia using metal‐exchanged zeolite catalysts.
+\newblock {\em Catalysis Reviews}, 50(4):492--531, 2008.
+
 \bibitem{Hui-UV-vis}
 Hui Li, Christopher Paolucci, Ishant Khurana, Laura~N. Wilcox, Florian
   G{\"{o}}ltl, Jonatan~D. Albarracin-Caballero, Arthur~J. Shih, Fabio~H.
@@ -39,5 +45,28 @@ Christopher Paolucci, Atish~A. Parekh, Ishant Khurana, John~R. {Di Iorio}, Hui
   exchanged cu cations in ssz-13 zeolites}.
 \newblock {\em Journal of the American Chemical Society}, 138(18):6028--6048,
   2016.
+
+\bibitem{Paolucci2014}
+Christopher Paolucci, Anuj~A. Verma, Shane~A. Bates, Vincent~F. Kispersky,
+  Jeffrey~T. Miller, Rajamani Gounder, W.~Nicholas Delgass, Fabio~H. Ribeiro,
+  and William~F. Schneider.
+\newblock {Isolation of the copper redox steps in the standard selective
+  catalytic reduction on Cu-SSZ-13}.
+\newblock {\em Angewandte Chemie - International Edition}, 53(44):11828--11833,
+  2014.
+
+\bibitem{sultana2011selective}
+Asima Sultana, Tetsuya Nanba, Motoi Sasaki, Masaaki Haneda, Kunio Suzuki, and
+  Hideaki Hamada.
+\newblock Selective catalytic reduction of nox with nh3 over different copper
+  exchanged zeolites in the presence of decane.
+\newblock {\em Catalysis today}, 164(1):495--499, 2011.
+
+\bibitem{tarot2018influence}
+Marie-Laure Tarot, Mathias Barreau, Daniel Duprez, Vincent Lauga, Eduard~Emil
+  Iojoiu, Xavier Courtois, and Fabien Can.
+\newblock Influence of the sodium impregnation solvent on the deactivation of
+  cu/fer-exchanged zeolites dedicated to the scr of nox with nh3.
+\newblock {\em Catalysts}, 8(1):3, 2018.
 
 \end{thebibliography}
